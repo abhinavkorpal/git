@@ -15,7 +15,7 @@ htps://windows.github.com
 #### GitHub for Mac
 htps://mac.github.com
 
-Git distributions for Linux and POSIX systems are available on the official Git SCM web site.
+Git distributions for Linux and POSIX systems are available on the official Git SCM web site
 
 #### Git for All Platforms
 htp://git-scm.com
@@ -37,3 +37,18 @@ Sets the email you want atached to your commit transactions
 $ git config --global color.ui auto
 Enables helpful colorization of command line output
 ```
+
+### CREATE REPOSITORIES
+Start a new repository or obtain one from an existing URL
+
+```shell
+$ git init [project-name]
+Creates a new local repository with the specified name
+```
+
+```shell
+$ git clone [url]
+Downloads a project and its entire version history
+```
+
+
