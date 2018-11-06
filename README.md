@@ -52,7 +52,7 @@ Downloads a project and its entire version history
 ```
 
 ### MAKE CHANGES
-Review edits and craf a commit transaction
+Review edits and craft a commit transaction
 
 ```shell
 $ git status
@@ -82,4 +82,32 @@ Unstages the file, but preserve its contents
 ```shell
 $ git commit -m "[descriptive message]"
 Records file snapshots permanently in version history
+```
+
+### GROUP CHANGES
+Name a series of commits and combine completed efforts
+
+```shell
+$ git branch
+Lists all local branches in the current repository
+```
+
+```shell
+$ git branch [branch-name]
+Creates a new branch
+```
+
+```shell
+$ git checkout [branch-name]
+Switches to the specified branch and updates the working directory
+```
+
+```shell
+$ git merge [branch]
+Combines the specified branch’s history into the current branch
+```
+
+```shell
+$ git branch -d [branch-name]
+Deletes the specified branch
 ```
