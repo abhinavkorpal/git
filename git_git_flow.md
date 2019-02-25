@@ -2,7 +2,7 @@ Git and Git Flow Cheat Sheet [![Awesome](https://cdn.rawgit.com/sindresorhus/awe
 ===============
 <hr>
 <p align="center">
-    <img alt="Git" src="./Img/git-logo.png" height="190" width="455">
+    <img alt="Git" src="./images/git-logo.png" height="190" width="455">
 </p>
 <hr>
 
@@ -691,13 +691,13 @@ git flow hotfix finish VERSION
 
 ### Commands
 <p align="center">
-    <img alt="Git" src="./Img/git-flow-commands.png" height="270" width="460">
+    <img alt="Git" src="./images/git-flow-commands.png" height="270" width="460">
 </p>
 <hr>
 
 ### Git flow schema
 
 <p align="center">
-    <img alt="Git" src="Img/git-flow-commands-without-flow.png">
+    <img alt="Git" src="images/git-flow-commands-without-flow.png">
 </p>
 <hr>
