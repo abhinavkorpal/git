@@ -6,8 +6,6 @@ Git and Git Flow Cheat Sheet
 </p>
 <hr>
 
-<hr>
-
 Git Cheat Sheet
 ===============
 ### Index
