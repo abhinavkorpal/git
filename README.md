@@ -111,3 +111,22 @@ Combines the specified branch’s history into the current branch
 $ git branch -d [branch-name]
 Deletes the specified branch
 ```
+
+
+
+### Issues
+
+Fixing the “GH001: Large files detected. You may want to try Git Large File Storage.”
+```shell
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage — https://git-lfs.github.com.
+remote: error: Trace: b5116d865251981c96d4b32cdf7ef464
+remote: error: See http://git.io/iEPt8g for more information.
+remote: error: File fixtures/11_user_answer.json is 131.37 MB; this exceeds GitHub’s file size limit of 100.00 MB
+```
+It turned out that GitHub only allows for 100 MB file. The problem is that I can’t simply remove the file because it is tracked inside the previous commits so I have to remove this file completely from my repo.
+
+The command that allow you to do it is:
+```shell
+git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch fixtures/11_user_answer.json'
+```
+At which point you can push the file to GitHub.
