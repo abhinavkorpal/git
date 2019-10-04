@@ -820,7 +820,7 @@ git flow hotfix finish VERSION
 </p>
 <hr>
 
-## git-tips
+# Git-Tips
 
 * [Everyday Git in twenty commands or so](#everyday-git-in-twenty-commands-or-so)
 * [Show helpful guides that come with Git](#show-helpful-guides-that-come-with-git)
