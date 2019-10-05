@@ -2,6 +2,11 @@ Git Help
 ===============
 Sometimes you just need a little help.
 
+- [Git Help](#git-help)
+    - [Github Git Cheat Sheet](#github-git-cheat-sheet)
+    - [Git and Git Flow Cheat Sheet](#git-and-git-flow-cheat-sheet)
+    - [Git Tips](#git-tips)
+
 Github Git Cheat Sheet
 ===============
 
