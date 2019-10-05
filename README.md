@@ -2,9 +2,10 @@ Git Help
 ===============
 Sometimes you just need a little help.
 
-Github Git-Cheat-Sheet
+Github Git Cheat Sheet
+===============
 
-### CONFIGURE TOOLING
+##### CONFIGURE TOOLING
 Configure user information for all local repositories
 
 ```shell
@@ -22,7 +23,7 @@ $ git config --global color.ui auto
 Enables helpful colorization of command line output
 ```
 
-### CREATE REPOSITORIES
+##### CREATE REPOSITORIES
 Start a new repository or obtain one from an existing URL
 
 ```shell
@@ -35,7 +36,7 @@ $ git clone [url]
 Downloads a project and its entire version history
 ```
 
-### MAKE CHANGES
+##### MAKE CHANGES
 Review edits and craft a commit transaction
 
 ```shell
@@ -68,7 +69,7 @@ $ git commit -m "[descriptive message]"
 Records file snapshots permanently in version history
 ```
 
-### GROUP CHANGES
+##### GROUP CHANGES
 Name a series of commits and combine completed efforts
 
 ```shell
@@ -96,7 +97,7 @@ $ git branch -d [branch-name]
 Deletes the specified branch
 ```
 
-### Refactor file names
+##### Refactor file names
 Relocate and remove versioned files
 ```shell
 $ git rm [file]
@@ -112,7 +113,7 @@ $ git mv [file-original] [file-renamed]
 Changes the file name and prepare it for commit
 ```
 
-### Review history
+##### Review history
 Browse and inspect the evolution of project files
 ```shell
 $ git log
@@ -132,7 +133,7 @@ $ git show [commit]
 Outputs metadata and content changes of the specified commit
 ```
 
-### Suppress tracking
+##### Suppress tracking
 Exclude temporary files and paths
 ```shell
 *.log
@@ -145,7 +146,7 @@ $ git ls-files --others --ignored --exclude-standard
 Lists all ignored files in this project
 ```
 
-### Redo commits
+##### Redo commits
 Erase mistakes and craft replacement history
 ```shell
 $ git reset [commit]
@@ -157,7 +158,7 @@ $ git reset --hard [commit]
 Discards all history and changes back to the specified commit
 ```
 
-### Save fragments
+##### Save fragments
 Shelve and restore incomplete changes
 ```shell
 $ git stash
@@ -177,7 +178,7 @@ $ git stash drop
 Discards the most recently stashed changeset
 ```
 
-### Synchronize changes
+##### Synchronize changes
 Register a remote (URL) and exchange repository history
 ```shell
 $ git fetch [remote]
@@ -197,7 +198,7 @@ $ git pull
 Downloads bookmark history and incorporates changes
 ```
 
-### create a new repository on the command line
+##### create a new repository on the command line
 
 ```shell
 echo "# GitHub-Help" >> README.md
@@ -208,14 +209,14 @@ git remote add origin https://github.com/abhinavkorpal/GitHub-Help.git
 git push -u origin master
 ```
 
-### push an existing repository from the command line
+##### push an existing repository from the command line
 
 ```shell
 git remote add origin https://github.com/abhinavkorpal/GitHub-Help.git
 git push -u origin master
 ```
 
-### Issues
+##### Issues
 
 Fixing the “GH001: Large files detected. You may want to try Git Large File Storage.”
 ```shell
