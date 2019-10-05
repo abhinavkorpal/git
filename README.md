@@ -5,6 +5,17 @@ Sometimes you just need a little help.
 - [Git Help](#git-help)
     - [Github Git Cheat Sheet](#github-git-cheat-sheet)
     - [Git and Git Flow Cheat Sheet](#git-and-git-flow-cheat-sheet)
+        * [Set Up](#setup)
+        * [Configuration Files](#configuration-files)
+        * [Create](#create)
+        * [Local Changes](#local-changes)
+        * [Search](#search)
+        * [Commit History](#commit-history)
+        * [Branches & Tags](#branches--tags)
+        * [Update & Publish](#update--publish)
+        * [Merge & Rebase](#merge--rebase)
+        * [Undo](#undo)
+        * [Git Flow](#git-flow)
     - [Git Tips](#git-tips)
 
 Github Git Cheat Sheet
