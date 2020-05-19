@@ -1,3 +1,9 @@
+<p align="center">
+  <h1 align="center">Developer's Git ✨</h1>
+</p>
+
+
+
 Git Help
 ===============
 Sometimes you just need a little help.
